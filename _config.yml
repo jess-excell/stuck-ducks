@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A beginner-friendly guide to computer science concepts. From understanding algorithms
   to writing your first lines of code, this site will help you develop the foundational 
   skills you need in tech.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/stuck-ducks" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
