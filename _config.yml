@@ -31,11 +31,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # minimal mistakes
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "contrast"
 enable_copy_code_button: true
 search: true
 atom_feed: 
   hide: true
+permalink: /:categories/:title/
 
 defaults:
   # _posts
@@ -44,10 +45,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
       read_time: true
       comments: true
-      share: true
       related: true
       show_date: false
 
