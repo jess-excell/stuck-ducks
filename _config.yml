@@ -28,15 +28,14 @@ baseurl: "/stuck-ducks" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
-search: true
 
-# Build settings
+# minimal mistakes
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "dark"
-
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
+enable_copy_code_button: true
+search: true
+atom_feed: 
+  hide: true
 
 defaults:
   # _posts
@@ -51,6 +50,10 @@ defaults:
       share: true
       related: true
       show_date: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
