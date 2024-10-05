@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello world in Python"
 date:   2024-10-04 17:00:44 +0100
-categories: jekyll update
+categories: python introduction
 ---
 Hi ducks! Today we are going to learn how to output "Hello World" to your screen using Python.
 
