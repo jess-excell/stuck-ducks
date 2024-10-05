@@ -2,10 +2,12 @@ python-docs:
   - title: Introduction
     children:
     - title: "Hello world"
-      url: /hello-world-in-python/
+      url: /python/hello-world/
 
 c-sharp-docs:
   - title: Introduction
     children:
     - title: "Hello world"
-      url: /c-sharp-hello-world/
+      url: /csharp/hello-world/
+    - title: "Variables 1"
+      url: /csharp/variables-1/

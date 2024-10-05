@@ -8,7 +8,7 @@ sidebar:
 ---
 Hi ducks! Today we are going to learn how to output "Hello World" to your screen using C#.
 
-For this tutorial, I'd recommend you use [programiz][programiz]. This will allow us to practice writing code online, without actually needing to install python.
+For this tutorial, I'd recommend you use [programiz][programiz]. This will allow us to practice writing code online, without actually needing to install an IDE (a place where you write code).
 
 You should see that the page is made up of 2 parts: on the left, we have `Main.cs` and on the right, we have `Output`. When we click the blue Run button, the code inside `Main.cs` is compiled and executed, and the result will be shown in the output. This out
 
@@ -31,13 +31,14 @@ public class HelloWorld
     }
 }
 ```
-Don't worry if you have some lines in light grey above "using system". These are comments, and something we will learn more about later.
+Don't worry if you have some lines of code in light grey above "using system". These are comments, and something we will learn more about later.
 Now, if you run this program, you should get the following output:
 
 ```
 Hello world!
 ```
 
-You can change the text in the quotation marks to whatever you would like, and it should be printed to the screen. We are using the `Console.WriteLine` function, and its purpose is to display text to the user. Once you've got the hang of this, feel free to move onto the next tutorial!
+You can change the text in the quotation marks to whatever you would like, and it should be printed to the screen. We are using the `Console.WriteLine` function, and its purpose is to display text to the user. Once you've got the hang of this, feel free to move onto [Variables][Variables]!
 
 [programiz]: https://www.programiz.com/csharp-programming/online-compiler/
+[variables]: /stuck-ducks/csharp/variables-1/
