@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Hello world in Python"
 date:   2024-10-04 17:00:44 +0100
 categories: python introduction
